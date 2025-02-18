@@ -10,6 +10,9 @@ module function_ex();
 
     else 
       $display("a is equal to b");
+
+    return 1; // this is not mandatory for this code ,this return is using for there is no  match found give 1
+    
   endfunction 
 
   initial begin 
@@ -26,4 +29,28 @@ endmodule
 a is equal to b
 a is greater than b
 a is smaller than b
+
+
+// ex 2 
+
+
+module func_example;
+  
+  // Function to add two numbers
+  function int add(int a, int b);
+    add = a + b;
+  endfunction
+
+  initial begin
+    int result;
+    result = add(5, 10);
+    $display("Addition Result: %0d", result);
+  end
+  
+endmodule
+
+
+//output 
+
+addition result  : 15 
   
