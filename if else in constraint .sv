@@ -18,7 +18,7 @@ initial begin
 
   repeat (3) begin 
     pkt.randomize();
-    $display (" scale = %s ,value = %d ", scale,value );
+    $display (" scale = %s ,value = %d ", pkt.scale,pkt.value );
   end 
 
 end 
