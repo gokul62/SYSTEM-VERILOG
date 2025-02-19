@@ -18,6 +18,12 @@ module implication_constraint ();
     end 
 
   end 
-  endmodule 
+  endmodule
+
+//output 
+
+scale = HIGH, value = 150
+scale = HIGH, value = 121
+scale = HIGH, value = 192 
 
   
