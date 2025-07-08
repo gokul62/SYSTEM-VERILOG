@@ -34,6 +34,14 @@ module mailbox();
   end 
 endmodule 
 
+//output 
+
+Task1: Put value = 5
+Task1: Put string = gokul
+Task2: Got value = 5
+Task2: Got string = gokul
+
+
 
     
 
